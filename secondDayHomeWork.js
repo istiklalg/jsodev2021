@@ -34,7 +34,7 @@ function totalOfDivisors(number){
     return total;
 }
 
-function isFriendNumbers(number1, number2){
+function isAmicableNumbers(number1, number2){
     if(totalOfDivisors(number1)==number2&&totalOfDivisors(number2)==number1){ 
         return true;
     }else{
@@ -42,7 +42,7 @@ function isFriendNumbers(number1, number2){
     }    
 }
 
-console.log("isFriendNumbers test result for 220 and 284 : "+isFriendNumbers(220, 284));
+console.log("isAmicableNumbers test result for 220 and 284 : "+isAmicableNumbers(220, 284));
 
 // 3-) 1000'e kadarki tüm mükemmel sayıları listeleyen programı yazınız
 function getPerfectNumbers(limit){
